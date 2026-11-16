@@ -1,0 +1,33 @@
+# ---- 运行期数据（含本机真实流量记录，切勿提交）----
+data/
+logs/
+src/data/
+src/logs/
+exports/
+*.db
+*.db-shm
+*.db-wal
+*.log
+
+# ---- 构建产物 ----
+FlowLens.exe
+*.exe
+build/
+dist/
+*.spec
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini

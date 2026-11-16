@@ -1,0 +1,6 @@
+# 运行依赖（Python 3.9+）
+PySide6>=6.5        # 图形界面
+psutil>=5.9         # 系统网络计数与进程信息
+
+# 可选：导出 XLSX 报表（缺失时仍可导出 CSV / HTML）
+openpyxl>=3.1
